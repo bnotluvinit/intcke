@@ -34,7 +34,7 @@ class Test(unittest.TestCase):
 
         def __init__(self, value, next=None):
             self.value = value
-            self.next  = next
+            self.next = next
 
         def get_values(self):
             node = self
