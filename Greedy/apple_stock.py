@@ -4,7 +4,7 @@ def get_max_profit(stock_prices):
 
     # We'll greedily update min_price and max_profit, so we initialize
     # them to the first price and the first possible profit
-    min_price  = stock_prices[0]
+    min_price = stock_prices[0]
     max_profit = stock_prices[1] - stock_prices[0]
 
     # Start at the second (index 1) time
